@@ -1,7 +1,8 @@
-# SonicPi-things
+# BadApple!! -Sonic Pi
 
-Hey welcome to my lair
-You can find here cool musics lazly remade in Sonic Pi here.
+Hey there !
+This is BadApple!! full version in Sonic Pi. This song sung by Nomico.
+I would like to explain how codes workes but Im confused too. Anyway I ll try !
 Have Fun ^^
  
                                                                                                                        
