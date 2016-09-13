@@ -1,0 +1,500 @@
+use_bpm 138
+#_With_this_one_you_can_change_all_volume__________________________
+ampli= 2
+#_These_guys_are_volumes_of_diffrent_ensturments_or_sounds_________
+prophetvolume= ampli*1.2
+bladevolume= ampli*3
+dsawvolume= ampli*0.65
+tb303volume= ampli
+noisevolume= ampli*1.5
+sneakyvolume= ampli*0.25
+#__Notes,__Durations,__Settings,__and_all_other_stuff_that_Icant_remember_right_now____
+suses     = [0.2,0.5,0.2,1,0.2,0.5,0.2]
+calcs     = [[0,1],[1,0]]
+notalar1  = [ :Eb4 , :F4 , :Gb4 , :Ab4 , :Bb4 , :Eb5 , :Db5 , :Bb4 , :Eb4 , :Bb4 , :Ab4 , :Gb4 , :F4 , :Eb4 , :F4 , :Gb4 , :Ab4 , :Bb4 , :Ab4 , :Gb4 ].ring
+zamanlama1= [ 0.5  , 0.5 ,  0.5 , 0.5  ,   1  ,  0.5 ,  0.5 ,   1  ,   1  ,  0.5 ,  0.5 ,  0.5 , 0.5 , 0.5  , 0.5 , 0.5  , 0.5  ,  1   , 0.5 , 0.5 ].ring
+notalar2  = [ :F4 , :Eb4 , :F4 , :Gb4 , :F4 , :Eb4 , :Db4 , :F4 ].ring
+notalar3  = [ :F4 , :Gb4 , :Ab4 , :Bb4 ].ring
+notalar4  = [:Db5,:Eb5,:Bb4,:Ab4,:Bb4,:A4,:Bb4].ring
+zamanlama4= [ 0.5, 0.5, 0.5, 0.5, 1  ,0.5, 0.5].ring
+notalar5  = [:Ab4,:Gb4,:F4,:Db4,:Eb4,:Db4,:Eb4,:F4,:Gb4,:Ab4,:Bb4,:Eb4,:Bb4,:Db5].ring
+zamanlama5= [ 0.5, 0.5,0.5, 0.5, 1  , 0.5, 0.5,0.5, 0.5, 0.5, 0.5,  1 , 0.5, 0.5].ring
+notalar6  = [:Db5,:Eb5,:Bb4,:Ab4,:Bb4,:A4,:Bb4,:Db5,:Eb5,:Bb4,:Ab4,:Bb4,:Eb5,:F5].ring
+zamanlama6= [ 0.5, 0.5, 0.5, 0.5, 1  ,0.5, 0.5, 0.5, 0.5, 0.5, 0.5, 1  ,0.5 , 0.5].ring
+notalar7  = [:Gb5,:F5,:Eb5,:Db5,:Bb4,:Ab4,:Bb4,:Ab4,:Gb4,:F4,:Db4,:Eb4,:Bb4,:Db5].ring
+zamanlama7=[ 0.5, 0.5,0.5, 0.5, 1  , 0.5, 0.5,0.5, 0.5, 0.5, 0.5,  1 , 0.5, 0.5].ring
+notalar8  = [ 12 , 15 , 17, 15 , 17 ].ring
+zamanlama8= [0.75,0.25,0.5,0.25,0.25].ring
+notalar9  = [ 17, 15 , 17 ,15 , 12 , 15 ].ring
+zamanlama9= [0.5,0.25,0.25,0.5,0.25,0.25].ring
+notcuklar  = [:Bb4,:Bb3].ring
+zamanciklar= [0.25,0.25,0.25,0.5,0.25,0.5].ring
+dav1= [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0].ring
+dav2= [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,2,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0].ring
+dav3= [1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,2,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,1,0,1,0,1,0,1,0,1,0,2,0].ring
+dav4= [1,1,1,3,1,1,1,2,1,1,1,3,1,1,1,2,1,1,1,3,1,1,1,2,1,1,1,3,1,1,1,0].ring
+dav5= [4,0,0,5,6,0,0,0,4,0,0,5,6,0,0,0,4,0,0,5,4,0,0,5,4,5,4,5,4,5,4,4].ring
+dav6= [1,1,1,3,1,1,1,2,1,1,1,3,1,1,1,2,4,1,1,3,1,1,1,2,1,1,1,3,1,1,1,0].ring
+main = [(knit 2,1,1,1,0,25,8,1,0,6,9,1,0,1,14,1),(knit 2,1,3,1,4,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,1,1,0,30,1,1,0,2,14,1),(knit 2,1,5,1,6,1,7,1,0,26,8,1,0,4,1,1,0,2,14,1),(knit 4,1,4,1,10,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,11,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,11,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,11,1,1,1,1,1,0,30,1,1,0,2,14,1),(knit 10,1,6,1,11,1,7,1,0,32,14,1),(knit 2,1,10,1,6,1,11,1,5,1,7,1,0,30,1,1,12,1,0,2,14,1),(knit 2,1,3,1,4,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,1,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,11,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,1,1,0,30,1,1,0,2,14,1),(knit 2,1,3,1,4,1,4,1,10,1,11,1,1,1,0,30,1,1,0,2,14,1),(knit 4,1,4,1,10,1,11,1,1,1,1,1,0,30,12,1,0,2,14,1),(knit 11,1,10,1,5,1,6,1,7,1,0,32,14,1),(knit 11,1,10,1,5,1,6,1,7,1,1,1,13,1,0,32,14,1),(knit 2,1,3,1,4,1,4,1,10,1,11,1,1,1,13,1,0,26,8,1,0,6,14,1),(knit 4,1,4,1,11,1,10,1,1,1,1,1,13,1,0,30,12,1,0,2,14,1),(knit 10,1,4,1,11,1,5,1,13,1,0,26,8,1,0,6,14,1),(knit 2,1,10,1,11,1,4,1,13,1,0,26,8,1,0,6,14,1),(knit 13,1,14,1)]
+bleyds= [[0,32,0,0,0],[0,32,0,0,0],[1,32,0,0,0],[2,32,0,0,0],[1,32,0,0,0],[2,30,0,0,0],[0,32,0,0,0],[0,32,0,0,0],[1,32,0,0,0],[2,32,0,0,0],[1,32,0,1,2],[2,32,2,0,0],[1,32,2,0,0],[2,32,2,0,0],[1,32,2,0,0],[2,30,2,0,0]]
+propdsaws=[[0,:Eb3,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[0,:Eb3,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,1],[2,:Eb4,0],[0,:Eb3,0],[2,:Eb4,0],[0,:Eb3,1],[2,:Eb4,0],[2,:Eb4,0],[2,:Eb4,0]]
+alotdrums=[[0,dav4],[1,dav1],[2,0],[1,dav1],[3,0],[2,0],[1,dav2],[2,0],[1,dav3],[4,0],[1,dav2],[3,0],[5,30],[1,dav2],[2,0],[4,0],[1,dav1],[2,0],[5,30],[1,dav1],[2,0],[1,dav2],[2,0],[1,dav3],[4,0],[1,dav2],[3,0],[5,32],[1,dav1],[0,dav5],[0,dav6],[5,32],[0,dav4]]
+tb3s= [[0,1],[1,0],[0,0],[0,0],[0,0]]
+longprops= [[30],[32],[28],[28],[30]]
+noiceses= [[3],[2],[2],[3],[3]]
+disaws= (knit [32],4,[28],1,[32],4,[28],1,[30],1,[32],4)
+sneakies= (knit [8],5,[0],1)
+
+#__Defines_______________________
+define :drum do
+  sample :bd_haus, amp: ampli
+end
+define :cymbal do
+  sample :drum_cymbal_open,amp: ampli*0.55,rate: 1.1, attack: 0.01, sustain: 0, release: 0.2
+end
+define :splash do
+  sample :drum_splash_hard, amp: ampli
+end
+define :abunchofnotes do |variable|
+  s = play variable[0], amp: variable[1],attack: 0.1, sustain: 1, release: 0.01
+  sleep 0.75
+  control s, note: variable[0]+12
+  sleep 0.5
+  s = play variable[0]+12, amp: variable[1], sustain:  1, release: 0.01
+  sleep 0.25
+  control s, note: variable[0]+10
+  sleep 0.25
+  control s, note: variable[0]+12
+  sleep 0.25
+end
+define :propdsaw do |variable|
+  in_thread do
+    if variable[0] == 0
+      use_synth :prophet
+      notes [prophetvolume, variable[1], variable[2]]
+    else
+      use_synth :dsaw
+      notes [dsawvolume, variable[1], variable[2]]
+    end
+  end
+end
+define :bleyd do |variable|
+  in_thread do
+    use_synth :blade
+    use_synth_defaults amp: bladevolume, cutoff: 120
+    if variable[0]== 0
+      blade = play :Eb4, sustain: variable[1]
+      notes3 [blade, variable[2]]
+    else
+      if variable[0]==1
+        blade = play :Db5, sustain: variable[1]
+        notes4 [blade,variable[2],0,0]
+        notes4 [blade,variable[2],variable[3],variable[4]]
+      else
+        blade = play :Db5, sustain: variable[1]
+        notes4 [blade, variable[2],variable[3],variable[4]]
+        notes2 [blade, variable[2]]
+      end
+    end
+  end
+end
+define :disaw do |sust|
+  in_thread do
+    use_synth :dsaw
+    use_synth_defaults amp: dsawvolume
+    hov = play :Eb4, sustain: sust[0]
+    anotherone [hov,:Eb4]
+    anotherone [hov,:Eb4]
+  end
+end
+define :tb3thousand3 do |variable|
+  in_thread do
+    use_synth :tb303
+    use_synth_defaults amp: tb303volume, sustain: 1, release: 0.1
+    sleep 2
+    (3+variable[0]).times do
+      weirdnoises
+    end
+    if variable[1]==1
+      play :Eb4
+    end
+  end
+end
+define :propfinisher do
+  in_thread do
+    use_synth :prophet
+    theng = play :Eb4,amp: prophetvolume, sustain: 2, attack: 0.01, release: 0.01
+    sleep 1
+    control theng, note: :Db4
+  end
+end
+define :noices do |long|
+  in_thread do
+    use_synth :noise
+    play :b4, amp: noisevolume, attack: long[0]*2, sustain: 0, release: 0.01
+    sleep long[0]
+    sample :drum_splash_hard,amp: noisevolume*0.75,finish: long[0]*0.167, rate: -1,attack: 1, release: 0.1
+    sleep long[0]
+  end
+end
+define :longprop do |sust|
+  use_synth :prophet
+  play :Eb4, sustain: sust[0],amp: prophetvolume
+end
+
+#_____Drums____________________
+define :drums do |variable|
+  if variable[0]==0
+    drums1 [variable[1]]
+  else
+    if variable[0]==1
+      drums4 [variable[1]]
+    else
+      if variable[0]==2
+        drums2
+      else
+        if variable[0]==3
+          drums3
+        else
+          if variable[0]==4
+            drums5
+          else
+            drumlusplash [variable[1]]
+          end
+        end
+      end
+    end
+  end
+end
+define :drums1 do |daavl|
+  in_thread do
+    32.times do |x|
+      if daavl[0][x] == 1
+        drum
+        sleep 0.05
+        cymbal
+        sleep 0.95
+      else
+        if daavl[0][x] == 2
+          2.times do
+            drum
+            sleep 0.5
+          end
+        else
+          if daavl[0][x] == 3
+            4.times do
+              drum
+              sleep 0.25
+            end
+          else
+            if daavl[0][x] == 4
+              drum
+              sleep 0.05
+              splash
+              sleep 0.95
+            else
+              if daavl[0][x] == 5
+                sleep 0.5
+                drum
+                sleep 0.5
+              else
+                if daavl[0][x] == 6
+                  drum
+                  sleep 1
+                else
+                  sleep 1
+                end
+              end
+            end
+          end
+        end
+      end
+    end
+  end
+end
+define :drums2 do
+  in_thread do
+    7.times do
+      drum
+      sleep 0.05
+      splash
+      sleep 0.283333333333333
+    end
+  end
+end
+define :drums3 do
+  in_thread do
+    7.times do
+      drum
+      sleep 0.33333333333
+    end
+  end
+end
+define :drums4 do |daaavl|
+  in_thread do
+    60.times do |x|
+      if daaavl[0][x] == 1
+        drum
+        sleep 0.05
+        cymbal
+        sleep 0.45
+      else
+        if daaavl[0][x] == 2
+          drum
+          sleep 0.05
+          splash
+          sleep 0.45
+        else
+          sleep 0.5
+        end
+      end
+    end
+  end
+end
+define :drums5 do
+  in_thread do
+    2.times do
+      drum
+      sleep 0.05
+      splash
+      sleep 0.95
+    end
+  end
+end
+define :drumlusplash do |sukadar|
+  in_thread do
+    sukadar[0].times do
+      drum
+      sleep 0.05
+      splash
+      sleep 0.95
+    end
+  end
+end
+
+#____NOTES_____________________
+#__prophet_and_dsaw_uses_this_guy_called_notes___
+define :notes do |variable|
+  in_thread do
+    4.times do
+      3.times do
+        abunchofnotes [variable[1],variable[0]]
+      end
+      cue :ths
+      sync :thsfeedback
+    end
+  end
+  2.times do |x|
+    sync :ths
+    s= play variable[1]+12, sustain: 2, amp: variable[0], attack: 0.1, release: 0.01
+    5.times do |y|
+      control s, note: variable[1]+notalar8[y]
+      sleep zamanlama8[y]
+    end
+    cue :thsfeedback
+    sync :ths
+    if variable[2] == 1 && x == 1
+      stop
+    end
+    s= play variable[1]+17, sustain: 2, amp: variable[0], attack: 0.1, release: 0.01
+    6.times do |y|
+      control s, note: variable[1]+notalar9[y]
+      sleep zamanlama9[y]
+    end
+    cue :thsfeedback
+  end
+end
+#__Blade_uses_these_friends_Their_names_are_notes4_notes3_and_notes2_____
+define :notes4 do |variable|
+  2.times do
+    7.times do |x|
+      control variable[0], note: notalar4[x]+variable[1]
+      sleep zamanlama4[x]
+    end
+  end
+  7.times do |x|
+    control variable[0], note: notalar5[x]+variable[1]
+    sleep zamanlama5[x]
+  end
+  if variable[2] == 1
+    5.times do |x|
+      control variable[0], note: notalar5[x+7]+variable[1], amp: bladevolume*1.5, cutoff: 130
+      sleep zamanlama5[x+7]
+    end
+    2.times do |x|
+      control variable[0], note: notalar5[x+12]+variable[1]+variable[3], amp: bladevolume, cutoff: 120
+      sleep zamanlama5[x+12]
+    end
+  else
+    7.times do |x|
+      control variable[0], note: notalar5[x+7]+variable[1]
+      sleep zamanlama5[x+7]
+    end
+  end
+end
+define :notes3 do |variable|
+  20.times do |x|
+    control variable[0], note: notalar1[x]+variable[1]
+    sleep zamanlama1[x]
+  end
+  8.times do |x|
+    control variable[0], note: notalar2[x]+variable[1]
+    sleep 0.5
+  end
+  20.times do |x|
+    control variable[0], note: notalar1[x]+variable[1]
+    sleep zamanlama1[x]
+  end
+  4.times do |x|
+    control variable[0], note: notalar3[x]+variable[1]
+    sleep 1
+  end
+end
+define :notes2 do |variable|
+  14.times do |x|
+    control variable[0], note: notalar6[x]+variable[1]
+    sleep zamanlama6[x]
+  end
+  14.times do |x|
+    control variable[0], note: notalar7[x]+variable[1]
+    sleep zamanlama7[x]
+  end
+end
+#__Well__these_ones_actually_sounds_weird_to_meh_but_anyway______
+define :anotherone do |variable|
+  control variable[0], note: variable[1]
+  sleep 8
+  control variable[0], note: variable[1]-4
+  sleep 4
+  control variable[0], note: variable[1]-2
+  sleep 2
+  control variable[0], note: variable[1]-1
+  sleep 2
+end
+define :zawaer do z=0
+  in_thread do sus= 1
+    use_synth :zawa
+    play :Eb3,amp: ampli, attack: 0.1, release: 0.1, sustain: sus
+    sleep 2
+    7.times do |x|
+      2.times do |y|
+        if calcs[z][y]== 0
+          sus = sus - suses[x]
+        else
+          sus = sus + suses[x]
+        end
+        play :Eb3,amp: ampli, attack: 0.1, release: 0.1, sustain: sus
+        sleep 2
+      end
+      if z== 0
+        z= z+1
+      else
+        z= z-1
+      end
+    end
+  end
+end
+define :weirdnoises do
+  play :Eb4, amp: ampli
+  sleep 3
+  play :Eb3, amp: ampli
+  sleep 1
+  play :Eb5, sustain: 0.5, amp: ampli
+  sleep 0.5
+  play :Db3, amp: ampli
+  sleep 3.5
+end
+define :sneaky do |weit|
+  in_thread do
+    use_synth :supersaw
+    2.times do
+      sleep weit[0]
+      24.times do |x|
+        play notcuklar[x],attack: 0.1, amp: sneakyvolume
+        sleep zamanciklar[x]
+      end
+    end
+  end
+end
+
+#___This_is_the_player_that_runs_the_music_and_it_gave_me_a_headache______________________
+live_loop :Lazy_Player do sayac=0 && sayac2=0 && saysleep= 1 && saydrum=0 && sayprop=0 && saytb3=0 && saylp=0 && saync=0 && saybleyd=0 && saydisaw=0 && saysneak=0
+  with_fx :reverb do
+    859.times do
+      if main[sayac2][sayac]==0
+        sleep 1
+        saysleep= inc saysleep
+      else
+        if main[sayac2][sayac]==1
+          drums alotdrums[saydrum]
+          saydrum= inc saydrum
+        else
+          if main[sayac2][sayac]==2
+            sample :drum_splash_hard,amp: ampli*2
+          else
+            if main[sayac2][sayac]==3
+              sample :ambi_lunar_land, amp: ampli*2
+            else
+              if main[sayac2][sayac]==4
+                propdsaw propdsaws[sayprop]
+                sayprop= inc sayprop
+              else
+                if main[sayac2][sayac]==5
+                  zawaer
+                else
+                  if main[sayac2][sayac]==6
+                    tb3thousand3 tb3s[saytb3]
+                    saytb3 = inc saytb3
+                  else
+                    if main[sayac2][sayac]==7
+                      longprop longprops[saylp]
+                      saylp = inc saylp
+                    else
+                      if main[sayac2][sayac]==8
+                        noices noiceses[saync]
+                        saync = inc saync
+                      else
+                        if main[sayac2][sayac]==9
+                          sample :drum_splash_hard,amp: ampli,finish: 0.084, rate: 1, release: 0.01
+                        else
+                          if main[sayac2][sayac]==10
+                            bleyd bleyds[saybleyd]
+                            saybleyd = inc saybleyd
+                          else
+                            if main[sayac2][sayac]==11
+                              disaw disaws[saydisaw]
+                              saydisaw = inc saydisaw
+                            else
+                              if main[sayac2][sayac]==12
+                                propfinisher
+                              else
+                                if main[sayac2][sayac]==13
+                                  sneaky sneakies[saysneak]
+                                  saysneak = inc saysneak
+                                else
+                                  sayac2= inc sayac2
+                                  sayac= -1
+                                end
+                              end
+                            end
+                          end
+                        end
+                      end
+                    end
+                  end
+                end
+              end
+            end
+          end
+        end
+      end
+      sayac= inc sayac
+      if saysleep == 32
+        saysleep= 1
+      end
+    end
+  end
+  sleep 32
+  print "Again ?"
+  sayac=0 && sayac2=0 && saysleep= 1 && saydrum=0 && sayprop=0 && saytb3=0 && saylp=0 && saync=0 && saybleyd=0 && saydisaw=0 && saysneak=0
+end
