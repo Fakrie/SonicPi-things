@@ -272,7 +272,7 @@ define :drumlusplash do |sukadar|
   end
 end
 
-#____NOTES_____________________
+#____NOTES___These_codes_runs_notes_from_up_there_when_they_called__________________
 #__prophet_and_dsaw_uses_this_guy_called_notes___
 define :notes do |variable|
   in_thread do
