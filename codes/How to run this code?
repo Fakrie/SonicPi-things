@@ -1,3 +1,7 @@
 I know there is alot of files and codes :P
 You need to run defines first before running the player.
-Copy those Define
+Copy those Define text files(you can simply copy with ctrl+a) and paste to different buffers in Sonic Pi.
+Also you have to copy those 6 define text files named lefthand and righthand to different buffers.
+Finally copy and paste last file named Unravel-Player to different buffer.
+Run those define codes one by one.
+Now you can run the player and listen. :3
