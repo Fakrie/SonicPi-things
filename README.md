@@ -1,9 +1,9 @@
 # BadApple!! -Sonic Pi
 
 Hey there !
-This is BadApple!! full version in Sonic Pi.
-Check out this awesomeness ! niconico: http://www.nicovideo.jp/watch/sm8628149
-I would like to explain how codes workes but Im confused too. Anyway I ll try !
+This is BadApple!! full version remade in Sonic Pi.
+Check out this awesomeness !(original video I hope :P) niconico: http://www.nicovideo.jp/watch/sm8628149
+I would like to explain how codes works but Im confused too. Anyway I ll try !
 Have Fun ^^
  
                                                                                                                        
