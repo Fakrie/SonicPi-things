@@ -1,0 +1,361 @@
+#-Left_Hand_3----------------------------------------
+#_Variables__________________________________________
+rhythm= 1.80
+la= 0.2
+ha= 1.5
+hha= 2
+a= 0.5
+lla =0.2
+
+
+#__NOTES___________________________________________
+define :notelh31 do
+  bb3 la
+  eb4 la
+  g4 la
+  eight
+end
+define :notelh32 do
+  eb3 la
+  eb2 la
+  eight
+end
+define :notelh33 do
+  a3 la
+  c4 la
+  f4 la
+  eight
+end
+define :notelh34 do
+  f3 la
+  f2 la
+  eight
+end
+define :notelh35 do
+  bb3 la
+  d4 la
+  g4 la
+  eight
+end
+define :notelh36 do
+  g3 la
+  g2 la
+  eight
+end
+define :notelh37 do
+  a3 la
+  d4 la
+  f4 la
+  eight
+end
+define :notelh38 do
+  d3 la
+  d2 la
+  eight
+end
+define :notelh39 do
+  four
+  eight
+  bb3l lla, rhythm*0.375
+  d4l lla, rhythm*0.375
+  fourn
+  bb3l lla, rhythm*0.25
+  d4l lla, rhythm*0.25
+  four
+end
+define :notelh310 do
+  2.times do
+    eb3 la
+    eight
+    bb3 la
+    eight
+    g4 la
+    eight
+  end
+  eb3 la
+  eight
+  bb3 la
+  eight
+end
+define :notelh311 do
+  2.times do
+    g3 la
+    eight
+    d4 la
+    eight
+    bb4 la
+    eight
+  end
+  g3 la
+  eight
+  d4 la
+  eight
+end
+
+#__#__Left_Hand_3_______________________________________
+define :lefthand3 do
+  with_fx :reverb do
+    with_fx :rlpf do
+      print "end lefthand before 109"
+      f3l lla, rhythm
+      f2l lla, rhythm
+      eightn
+      f3l la, rhythm*0.1875
+      eightn
+      f3 la
+      eight
+      c4 la
+      f4 la
+      a4 la
+      eight
+      f4 la
+      sxt
+      c4 la
+      sxt
+      a3 la
+      sxt
+      f3 la
+      sxt
+      c3 la
+      sxt
+      f2 la
+      sxt
+      print "end lefthand before 110"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      eightn
+      g3l la, rhythm*0.1875
+      eightn
+      g3 la
+      eight
+      d4 la
+      g4 la
+      bb4 la
+      eight
+      g4 la
+      sxt
+      d4 la
+      sxt
+      bb3 la
+      sxt
+      g3 la
+      sxt
+      d3 la
+      sxt
+      g2 la
+      sxt
+      print "end lefthand before 111"
+      d3l lla, rhythm
+      d2l lla, rhythm
+      eightn
+      d3l la, rhythm*0.1875
+      eightn
+      d3 la
+      eight
+      f3 la
+      a3 la
+      d4 la
+      eight
+      d4 la
+      sxt
+      a3 la
+      sxt
+      d3 la
+      sxt
+      a2 la
+      sxt
+      d2 la
+      eight
+      print "end lefthand before 112"
+      eb2l lla, rhythm
+      eb1l lla, rhythm
+      eight
+      notelh31
+      notelh32
+      notelh31
+      notelh32
+      notelh31
+      notelh32
+      notelh31
+      print "end lefthand before 113"
+      f2l lla, rhythm
+      f1l lla, rhythm
+      eight
+      notelh33
+      notelh34
+      notelh33
+      notelh34
+      notelh33
+      notelh34
+      notelh33
+      print "end lefthand before 114"
+      g2l lla, rhythm
+      g1l lla, rhythm
+      eight
+      notelh35
+      notelh36
+      notelh35
+      notelh36
+      notelh35
+      notelh36
+      notelh35
+      print "end lefthand before 115"
+      d2l lla, rhythm
+      d1l lla, rhythm
+      eight
+      notelh37
+      notelh38
+      notelh37
+      notelh38
+      notelh37
+      notelh38
+      notelh37
+      print "end lefthand before 116"
+      eb2l lla, rhythm
+      eb1l lla, rhythm
+      eight
+      3.times do
+        eb3 la
+        bb2 la
+        eb2 la
+        eight
+      end
+      bb3l la, rhythm*0.25
+      eb4l la, rhythm*0.25
+      g2l la, rhythm*0.25
+      four
+      eb3l la, rhythm*0.25
+      eb2l la, rhythm*0.25
+      four
+      print "end lefthand before 117"
+      f2l lla, rhythm
+      f1l lla, rhythm
+      four
+      eight
+      a3l la, rhythm*0.75
+      c4l la, rhythm*0.75
+      f4l la, rhythm*0.75
+      eight
+      four
+      f3l la, rhythm*0.25
+      f2l la, rhythm*0.25
+      four
+      print "end lefthand before 118"
+      eb3l lla, rhythm
+      eb2l lla, rhythm
+      notelh39
+      print "end lefthand before 119"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      notelh39
+      print "end lefthand before 120"
+      f3l lla, rhythm
+      f2l lla, rhythm
+      four
+      eight
+      a3l lla, rhythm*0.75
+      c4l lla, rhythm*0.75
+      fourn
+      a3l lla, rhythm*0.25
+      c4l lla, rhythm*0.25
+      four
+      print "end lefthand before 121"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      notelh39
+      print "end lefthand before 122"
+      notelh310
+      print "end lefthand before 123"
+      notelh311
+      print "end lefthand before 124"
+      2.times do
+        f3 la
+        eight
+        c4 la
+        eight
+        a4 la
+        eight
+      end
+      f3 la
+      eight
+      c4 la
+      eight
+      print "end lefthand before 125"
+      notelh311
+      print "end lefthand before 126"
+      notelh310
+      print "end lefthand before 127"
+      notelh311
+      print "end lefthand before 128"
+      one
+      print "end lefthand before 129"
+      bb1l lla, rhythm
+      sxt
+      f2 la
+      sxt
+      bb2 la
+      sxt
+      c3 la
+      sxt
+      bb2 la
+      sxt
+      c3 la
+      sxt
+      d3 la
+      sxt
+      f3 la
+      sxt
+      bb3 la
+      sxt
+      d4 la
+      sxt
+      c4 la
+      sxt
+      d4 la
+      sxt
+      eb4 la
+      sxt
+      d4 la
+      sxt
+      c4 la
+      sxt
+      d4 la
+      sxt
+      print "end lefthand before 130"
+      bb1l lla, rhythm*2
+      sxt
+      f2 la
+      sxt
+      bb2 la
+      sxt
+      c3 la
+      sxt
+      bb2 la
+      sxt
+      c3 la
+      sxt
+      d3 la
+      sxt
+      f3 la
+      sxt
+      bb3 la
+      sxt
+      d4 la
+      sxt
+      c4 la
+      sxt
+      d4 la
+      sxt
+      eb4 la
+      sxt
+      d4 la
+      sxt
+      c4 la
+      sxt
+      d4l lla, rhythm*2
+      sxt
+      print "end lefthand before 131"
+      print "end lefthand before 132"
+    end
+  end
+end

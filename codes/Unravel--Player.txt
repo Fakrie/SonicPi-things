@@ -1,0 +1,223 @@
+in_thread do
+  sample1= :bd_zum
+  sample2= :bd_zome
+  samp= 0.50
+  rhythm = 1.80
+  in_thread do
+    use_synth :blade
+    use_synth_defaults attack: 0, release: 0.5
+    righthand
+    righthand2
+    righthand3
+  end
+  in_thread do
+    use_synth :dsaw
+    use_synth_defaults attack: 0, release: 0.5
+    lefthand
+    lefthand2
+    lefthand3
+  end
+
+  #_Drums_________________________________
+
+  in_thread do
+    sleep rhythm*4+rhythm*0.125
+    with_fx :reverb do
+      with_fx :rlpf do
+        24.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+        end
+      end
+    end
+  end
+  in_thread do
+    sleep rhythm*16+rhythm*0.125
+    with_fx :reverb do
+      with_fx :rlpf do
+        samp = samp - 0.10
+        4.times do
+          samp = samp + 0.10
+          sample sample1 , amp: samp
+          four
+        end
+        5.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          sxt
+          sample sample1 , amp: samp
+          sxt
+          sample sample2 , amp: samp
+          eight
+        end
+        4.times do
+          sample sample1 , amp: samp
+          four
+          samp = samp - 0.10
+        end
+        samp = samp + 0.10
+      end
+    end
+  end
+  in_thread do
+    sleep rhythm*31+rhythm*0.125
+    with_fx :reverb do
+      with_fx :rlpf do
+        4.times do
+          sample sample1 , amp: samp
+          four
+        end
+        2.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          four
+        end
+        one
+        6.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          sxt
+          sample sample1 , amp: samp
+          sxt
+          sample sample2 , amp: samp
+          eight
+        end
+        one
+        1.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          four
+        end
+        6.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          sxt
+          sample sample1 , amp: samp
+          sxt
+          sample sample2 , amp: samp
+          eight
+        end
+        sleep rhythm*8
+        16.times do
+          sample sample1 , amp: samp
+          four
+        end
+        3.times do
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+        end
+        1.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          sxt
+          sample sample1 , amp: samp
+          sxt
+          sample sample2 , amp: samp
+          eight
+        end
+        8.times do
+          sample sample1 , amp: samp
+          two
+          sample sample2 , amp: samp
+          two
+        end
+        4.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+        end
+        4.times do
+          sample sample1 , amp: samp
+          two
+          sample sample2 , amp: samp
+          two
+        end
+        16.times do
+          sample sample1 , amp: samp
+          four
+        end
+        2.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          four
+        end
+        1.times do
+          sample sample1 , amp: samp
+          four
+          sample sample2 , amp: samp
+          eight
+          sample sample1 , amp: samp
+          four
+          sample sample1 , amp: samp
+          eight
+          sample sample2 , amp: samp
+          sxt
+          sample sample1 , amp: samp
+          sxt
+          sample sample2 , amp: samp
+          eight
+        end
+      end
+    end
+  end
+end

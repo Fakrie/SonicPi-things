@@ -1,0 +1,1118 @@
+#-Left_Hand_1----------------------------------------
+#_Variables__________________________________________
+rhythm= 1.80
+la= 0.2
+ha= 1.5
+hha= 2
+a= 0.5
+lla = 0.2
+
+#_Shortcuts________________________________________
+define :notesl1 do
+  g2 a
+  d3 a
+  g3 a
+  sxt
+end
+define :notesl2 do
+  g3 la
+  sxt
+  f3 la
+  sxt
+  g3 la
+  sxt
+end
+define :nakaratl1 do
+  g3 la
+  eight
+  d4 la
+  eight
+  bb4 la
+  eight
+end
+define :nakaratl2 do
+  eight
+  c5 la
+  eight
+  d5 la
+  eight
+end
+define :nakaratl3 do
+  in_thread do nakaratl1 end
+  nakaratl2
+  in_thread do nakaratl1 end
+  nakaratl2
+  g3 la
+  eight
+  d4 la
+  eight
+end
+define :nakaratl4 do
+  f3 la
+  eight
+  c4 la
+  eight
+  a4 la
+  eight
+  f3 la
+  eight
+  c4 la
+  eight
+  f4 la
+  eight
+end
+define :nakaratl5 do
+  eb3 la
+  eight
+  bb3 la
+  eight
+  g4 la
+  eight
+  eb3 la
+  eight
+  bb3 la
+  eight
+  g4 la
+  eight
+  eb3 la
+  eight
+  bb3 la
+  eight
+end
+define :nakaratl6 do
+  nakaratl1
+  nakaratl1
+  g3 la
+  eight
+  d4 la
+  eight
+end
+define :nakaratl75 do
+  f4 la
+  eight
+  c5 la
+  eight
+  d5 la
+  eight
+end
+define :nakaratl7 do
+  nakaratl75
+  nakaratl75
+  f4 la
+  eight
+  eight
+end
+define :nakaratl8 do
+  g2 la
+  sxt
+  notesl2
+  d3 la
+  sxt
+  f3 la
+  sxt
+  g3 la
+  sxt
+  a3 la
+  sxt
+  bb3 la
+  sxt
+  notesl2
+  d3 la
+  sxt
+  notesl2
+end
+
+
+#__NOTES___________________________________________
+#__#__Left_Hand________________________________________
+define :lefthand do
+  with_fx :reverb do
+    with_fx :rlpf do
+      eight
+      print "end lefthand before 1"
+      g5l lla, rhythm*0.75
+      twon
+      bb5l lla, rhythm*0.25
+      four
+      print "end lefthand before 2"
+      eb5l lla, rhythm*0.75
+      twon
+      g5l lla, rhythm*0.25
+      four
+      print "end lefthand before 3"
+      f5l lla, rhythm*0.75
+      twon
+      a5l lla, rhythm*0.25
+      four
+      print "end lefthand before 4"
+      g5l lla, rhythm*0.75
+      twon
+      four
+      print "end lefthand before 5"
+      e3 la
+      eight
+      bb3 la
+      eight
+      g4 la
+      eight
+      e3 la
+      eight
+      bb3 la
+      eight
+      f4 la
+      eight
+      bb4 la
+      eight
+      d5 la
+      eight
+      print "end lefthand before 6"
+      nakaratl3
+      print "end lefthand before 7"
+      nakaratl4
+      bb4 la
+      eight
+      c5 la
+      eight
+      print "end lefthand before 8"
+      nakaratl3
+      print "end lefthand before 9"
+      nakaratl5
+      print "end lefthand before 10"
+      nakaratl6
+      print "end lefthand before 11"
+      nakaratl4
+      f3 la
+      eight
+      c4 la
+      eight
+      print "end lefthand before 12"
+      nakaratl6
+      print "end lefthand before 13"
+      nakaratl5
+      print "end lefthand before 14"
+      in_thread do nakaratl6 end
+      nakaratl7
+      print "end lefthand before 15"
+      nakaratl4
+      f3 la
+      eight
+      f3 la
+      eight
+      print "end lefthand before 16"
+      g3 la
+      sxt
+      g3 la
+      sxt
+      g3 la
+      sxt
+      sxt
+      g3 la
+      sxt
+      g3 la
+      sxt
+      sxt
+      g3 la
+      sxt
+      sxt
+      g3 la
+      sxt
+      g3 la
+      sxt
+      sxt
+      sxt
+      g3 la
+      sxt
+      g3l lla, rhythm+rhythm*0.125
+      eight
+      print "end lefthand before 17"
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      eight
+      print "end lefthand before 18"
+      notesl1
+      notesl1
+      notesl1
+      sxt
+      notesl1
+      notesl1
+      sxt
+      notesl1
+      sxt
+      notesl1
+      notesl1
+      sxt
+      sxt
+      notesl1
+      notesl1
+      sxt
+      print "end lefthand before 19"
+      g2 a
+      g1 a
+      eight
+      g3 a
+      sxt
+      bb3 a
+      d4 a
+      g4 a
+      sxt
+      eight
+      g2 a
+      sxt
+      d3 a
+      g3 a
+      sxt
+      f2 a
+      f3 a
+      sxt
+      f2 a
+      f3 a
+      sxt
+      sxt
+      f3 a
+      c4 a
+      sxt
+      f2 a
+      sxt
+      f3 a
+      c4 a
+      sxt
+      sxt
+      f2 a
+      f3 a
+      sxt
+      print "end lefthand before 20"
+      eb3 a
+      eb2 a
+      eight
+      g3 a
+      sxt
+      bb3 a
+      eb4 a
+      g4 a
+      sxt
+      eight
+      eb2 a
+      sxt
+      bb2 a
+      eb3 a
+      sxt
+      d2 a
+      d3 a
+      sxt
+      d2 a
+      d3 a
+      sxt
+      sxt
+      a3 a
+      d4 a
+      sxt
+      d2 a
+      sxt
+      a3 a
+      d4 a
+      sxt
+      sxt
+      d3 a
+      d2 a
+      sxt
+      print "end lefthand before 21"
+      g1 a
+      g2 a
+      eight
+      g3 a
+      sxt
+      bb3 a
+      d4 a
+      g4 a
+      sxt
+      eight
+      eb4 a
+      eight
+      d3 a
+      g3 a
+      sxt
+      f2 a
+      f3 a
+      sxt
+      f2 a
+      f3 a
+      sxt
+      f3 a
+      c4 a
+      sxt
+      f2 a
+      sxt
+      f3 a
+      c4 a
+      sxt
+      sxt
+      f3 a
+      f2 a
+      sxt
+      print "end lefthand before 22"
+      eb2 a
+      eb3 a
+      eight
+      g3 a
+      sxt
+      bb3 a
+      eb4 a
+      g4 a
+      sxt
+      eight
+      eb2 a
+      sxt
+      bb2 a
+      eb3 a
+      sxt
+      d3 a
+      d2 a
+      sxt
+      d3 a
+      d2 a
+      sxt
+      sxt
+      a3 a
+      d4 a
+      sxt
+      d2 a
+      sxt
+      a3 a
+      d4 a
+      sxt
+      sxt
+      d3 a
+      d2 a
+      sxt
+      print "end lefthand before 23"
+      g2 la
+      g3 la
+      g3 la
+      d4 la
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      g3 la
+      d4 la
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      g3 la
+      d4 la
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      g3 la
+      d4 la
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      g3 la
+      d4 la
+      sxt
+      sxt
+      print "end lefthand before 24"
+      g3l lla, rhythm
+      d4l lla, rhythm
+      one
+      print "end lefthand before 25"
+      bb3l lla, rhythm
+      eb3l lla, rhythm
+      one
+      print "end lefthand before 26"
+      f3l lla, rhythm
+      c4l lla, rhythm
+      one
+      print "end lefthand before 27"
+      bb3l lla, rhythm*0.5*1.5
+      twon
+      a3l lla, rhythm*0.25
+      four
+      print "end lefthand before 28"
+      g3l lla, rhythm
+      d4l lla, rhythm
+      one
+      print "end lefthand before 29"
+      eb3l lla, rhythm
+      bb3l lla, rhythm
+      one
+      print "end lefthand before 30"
+      f3l lla, rhythm
+      c4l lla, rhythm
+      one
+      print "end lefthand before 31"
+      f4l lla, rhythm*0.5*1.5
+      bb3l lla, rhythm*0.5*1.5
+      twon
+      a3l lla, rhythm*0.25
+      four
+      print "end lefthand before 32"
+      nakaratl8
+      print "end lefthand before 33"
+      nakaratl8
+      print "end lefthand before 34"
+      g2 la
+      sxt
+      notesl2
+      d3 la
+      sxt
+      f3 la
+      sxt
+      g3 la
+      sxt
+      a3 la
+      sxt
+      bb3 la
+      eight
+      sxt
+      g2 la
+      g3 la
+      eight
+      sxt
+      g2l la, rhythm*0.375
+      g3l la, rhythm*0.375
+      eight
+      print "end lefthand before 35"
+      four
+      eight
+      g3 la
+      sxt
+      d4 la
+      sxt
+      f4 la
+      sxt
+      bb4 la
+      four
+      f2 la
+      f3 la
+      eightn
+      print "end lefthand before 36"
+      eb2l lla, rhythm
+      eb1l lla, rhythm
+      eight
+      eb2 la
+      sxt
+      bb2 la
+      eb3 la
+      eight
+      eb2 la
+      sxt
+      bb2 la
+      eb3 la
+      eight
+      eb4 la
+      sxt
+      bb3 la
+      sxt
+      g3 la
+      sxt
+      eb3 la
+      sxt
+      bb2 la
+      sxt
+      eb2 la
+      sxt
+      eb1 la
+      eight
+      print "end lefthand before 37"
+      f2l lla, rhythm
+      f1l lla, rhythm
+      eight
+      f2 la
+      sxt
+      c3 la
+      f3 la
+      eight
+      f2 la
+      sxt
+      c3 la
+      f3 la
+      eight
+      f4 la
+      sxt
+      c4 la
+      sxt
+      a3 la
+      sxt
+      f3 la
+      sxt
+      c3 la
+      sxt
+      f2 la
+      sxt
+      f1 la
+      eight
+      print "end lefthand before 38"
+      g2l lla, rhythm
+      g1l lla, rhythm
+      eight
+      g2 la
+      sxt
+      d3 la
+      g3 la
+      eight
+      g2 la
+      sxt
+      d3 la
+      g3 la
+      eight
+      g4 la
+      sxt
+      d4 la
+      sxt
+      bb3 la
+      sxt
+      g3 la
+      sxt
+      d3 la
+      sxt
+      g2 la
+      sxt
+      g1 la
+      eight
+      print "end lefthand before 39"
+      d2l lla, rhythm
+      d1l lla, rhythm
+      eight
+      d2 la
+      sxt
+      a2 la
+      d3 la
+      eight
+      d2 la
+      sxt
+      d3 la
+      a2 la
+      eight
+      d4 la
+      sxt
+      a3 la
+      sxt
+      f3 la
+      sxt
+      d3 la
+      sxt
+      a2 la
+      sxt
+      d2 la
+      sxt
+      d1 la
+      eight
+      print "end lefthand before 40"
+      eb2l lla, rhythm
+      eb1l lla, rhythm
+      eight
+      eb2 la
+      sxt
+      bb2 la
+      eb3 la
+      eight
+      eb2 la
+      sxt
+      bb2 la
+      eb3 la
+      eight
+      eb4 la
+      sxt
+      bb3 la
+      sxt
+      g3 la
+      sxt
+      eb3 la
+      sxt
+      bb2 la
+      sxt
+      eb2 la
+      sxt
+      eb1 la
+      eight
+      print "end lefthand before 41"
+      f2l lla, rhythm
+      f1l lla, rhythm
+      eight
+      f2 la
+      sxt
+      c3 la
+      f3 la
+      eight
+      f2 la
+      sxt
+      c3 la
+      f3 la
+      eight
+      f4 la
+      sxt
+      c4 la
+      sxt
+      a3 la
+      sxt
+      f3 la
+      sxt
+      c3 la
+      sxt
+      f2 la
+      sxt
+      f1 la
+      eight
+      print "end lefthand before 42"
+      g2l lla, rhythm
+      g1l lla, rhythm
+      eight
+      g2 la
+      sxt
+      d3 la
+      g3 la
+      eight
+      g2 la
+      sxt
+      d3 la
+      g3 la
+      eight
+      g4 la
+      sxt
+      d4 la
+      sxt
+      bb3 la
+      sxt
+      g3 la
+      sxt
+      d3 la
+      sxt
+      g2 la
+      sxt
+      g1 la
+      eight
+      print "end lefthand before 43"
+      d3l lla, rhythm
+      d2l lla, rhythm
+      eight
+      d3 la
+      sxt
+      a3 la
+      eight
+      d3 la
+      sxt
+      a3 la
+      eight
+      d4 la
+      sxt
+      a3 la
+      sxt
+      f3 la
+      sxt
+      d3 la
+      sxt
+      a2 la
+      sxt
+      f2 la
+      sxt
+      d2 la
+      eight
+      print "end lefthand before 44"
+      eb2 a
+      sxt
+      eb3 la
+      sxt
+      bb2 la
+      sxt
+      eb2 la
+      sxt
+      eb1 a
+      sxt
+      eb2 la
+      sxt
+      bb2 la
+      sxt
+      eb3 la
+      sxt
+      eb2 a
+      sxt
+      eb3 la
+      sxt
+      bb2 la
+      sxt
+      eb2 la
+      sxt
+      eb1 a
+      sxt
+      eb2 la
+      sxt
+      bb2 la
+      sxt
+      eb3 la
+      sxt
+      print "end lefthand before 45"
+      f2 a
+      sxt
+      f3 la
+      sxt
+      c3 la
+      sxt
+      f2 la
+      sxt
+      f1 a
+      sxt
+      f2 la
+      sxt
+      c3 la
+      sxt
+      f3 la
+      sxt
+      f2 a
+      sxt
+      f3 la
+      sxt
+      c3 la
+      sxt
+      f2 la
+      sxt
+      f1 a
+      sxt
+      f2 la
+      sxt
+      c3 la
+      sxt
+      f3 la
+      sxt
+      print "end lefthand before 46"
+      g2 a
+      sxt
+      g3 la
+      sxt
+      d3 la
+      sxt
+      g2 la
+      sxt
+      g1 a
+      sxt
+      g2 la
+      sxt
+      d3 la
+      sxt
+      g3 la
+      sxt
+      g2 a
+      sxt
+      g3 la
+      sxt
+      d3 la
+      sxt
+      g2 la
+      sxt
+      g1 a
+      sxt
+      g2 la
+      sxt
+      d3 la
+      sxt
+      g3 la
+      sxt
+      print "end lefthand before 47"
+      d2 a
+      sxt
+      d3 la
+      sxt
+      a2 la
+      sxt
+      d2 la
+      sxt
+      d1 a
+      sxt
+      d2 la
+      sxt
+      a2 la
+      sxt
+      d3 la
+      sxt
+      d2 a
+      sxt
+      d3 la
+      sxt
+      a2 la
+      sxt
+      d2 la
+      sxt
+      d1 a
+      sxt
+      d2 la
+      sxt
+      a2 la
+      sxt
+      d3 la
+      sxt
+      print "end lefthand before 48"
+      eb1 la
+      sxt
+      eb2 la
+      sxt
+      eb1 la
+      sxt
+      eb2 la
+      sxt
+      bb2 la
+      sxt
+      eb3 la
+      sxt
+      bb3 la
+      sxt
+      eb4 la
+      sxt
+      g4 la
+      sxt
+      eb4 la
+      sxt
+      bb3 la
+      sxt
+      eb3 la
+      sxt
+      eb2 la
+      four
+      print "end lefthand before 49"
+      f2 la
+      f1 la
+      fourn
+      a3l la, rhythm*0.375
+      c4l la, rhythm*0.375
+      f4l la, rhythm*0.375
+      eight
+      four
+      f3 la
+      f2 la
+      four
+      print "end lefthand before 50"
+      e2l lla, rhythm
+      e3l lla, rhythm
+      eightn
+      e3 la
+      eightn
+      e3 la
+      eight
+      g3 la
+      bb3 la
+      two
+      print "end lefthand before 51"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      eightn
+      g3 la
+      eightn
+      g3 la
+      eight
+      bb3 la
+      d4 la
+      two
+      print "end lefthand before 52"
+      f3l lla, rhythm
+      f2l lla, rhythm
+      eightn
+      f3 la
+      eightn
+      f3 la
+      eight
+      a3 la
+      c4 la
+      two
+      print "end lefthand before 53"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      eightn
+      g3 la
+      eightn
+      g3 la
+      eight
+      bb3 la
+      d4 la
+      two
+      print "end lefthand before 54"
+      e2l lla, rhythm
+      e3l lla, rhythm
+      eightn
+      e3 la
+      eightn
+      e3 la
+      eight
+      g3 la
+      bb3 la
+      two
+      print "end lefthand before 55"
+      g3l lla, rhythm
+      g2l lla, rhythm
+      eightn
+      g3 la
+      eightn
+      g3 la
+      eight
+      bb3 la
+      d4 la
+      two
+      print "end lefthand before 56"
+      f3l lla, rhythm
+      f2l lla, rhythm
+      eightn
+      f3 la
+      eightn
+      f3 la
+      eight
+      a3 la
+      c4 la
+      two
+      print "end lefthand before 57"
+      g3l la, rhythm
+      g2l la, rhythm
+      eightn
+      g3 la
+      eightn
+      g3 la
+      eight
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      d5 la
+      sxt
+      g5 la
+      four
+      print "end lefthand before 58"
+      g3 la
+      sxt
+      f4 la
+      sxt
+      eb4 la
+      sxt
+      f4 la
+      sxt
+      bb3 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      f5 la
+      sxt
+      d5 la
+      sxt
+      c5 la
+      sxt
+      d5 la
+      sxt
+      eb4 la
+      sxt
+      bb4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      print "end lefthand before 59"
+      g3 la
+      sxt
+      f4 la
+      sxt
+      d4 la
+      sxt
+      f4 la
+      sxt
+      bb3 la
+      sxt
+      g4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      f5 la
+      sxt
+      d5 la
+      sxt
+      c5 la
+      sxt
+      d5 la
+      sxt
+      g4 la
+      sxt
+      bb4 la
+      sxt
+      g4 la
+      sxt
+      bb4 la
+      sxt
+      print "end lefthand before 60"
+      f3 la
+      sxt
+      f4 la
+      sxt
+      c4 la
+      sxt
+      f4 la
+      sxt
+      bb3 la
+      sxt
+      f4 la
+      sxt
+      bb4 la
+      sxt
+      c5 la
+      sxt
+      f5 la
+      sxt
+      c5 la
+      sxt
+      bb4 la
+      sxt
+      c5 la
+      sxt
+      f4 la
+      sxt
+      bb4 la
+      sxt
+      a4 la
+      sxt
+      bb4 la
+      sxt
+      print "end lefthand before 61"
+    end
+  end
+end

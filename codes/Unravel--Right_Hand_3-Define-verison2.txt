@@ -1,0 +1,925 @@
+#-Right_Hand_3----------------------------------------
+#_Variables__________________________________________
+rhythm = 1.80
+la= 0.5
+ha= 1.5
+hha= 2
+ma= 1
+a= 1
+
+define :righthand3 do
+  with_fx :reverb do
+    with_fx :rlpf do
+      print "end righthand before 86"
+      2.times do
+        d4 a
+        d5 a
+        f4 a
+        sxt
+        a4 a
+        sxt
+        bb4 a
+        sxt
+        f4 a
+        sxt
+        eight
+        d5 a
+        sxt
+        a4 a
+        sxt
+        bb4 a
+        sxt
+        f4 a
+        sxt
+        eight
+        d5 a
+        sxt
+        a4 a
+        sxt
+        bb4 a
+        eight
+        print "end righthand before 87"
+      end
+      print "end righthand before 88"
+      f4 a
+      d4 a
+      d5 a
+      sxt
+      a4 a
+      sxt
+      bb4 a
+      sxt
+      f4 a
+      sxt
+      eight
+      d5 a
+      sxt
+      a4 a
+      sxt
+      bb4 a
+      c5l a, rhythm*0.1875
+      sxt
+      f4l a, rhythm*0.4375
+      eight
+      d5l a, rhythm*0.1875
+      sxt
+      eight
+      d4l a, rhythm*0.25
+      f4l a, rhythm*0.25
+      bb4l a, rhythm*0.25
+      d5l a, rhythm*0.25
+      eight
+      print "end righthand before 89"
+      eight
+      eb5 a
+      eb6 a
+      eight
+      d5 a
+      d6 a
+      four
+      d6 a
+      d7 a
+      four
+      c6 a
+      c7 a
+      four
+      print "end righthand before 90"
+      d7l ha, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      eb6 a
+      sxt
+      c7l ha, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      eb6 a
+      sxt
+      c7 ha
+      sxt
+      eb6 a
+      sxt
+      c7l ha, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      eb6 a
+      sxt
+      bb6l ha, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      eb6 a
+      sxt
+      bb6 ha
+      sxt
+      eb6 a
+      sxt
+      print "end righthand before 91"
+      a6l ha, rhythm*0.1875
+      sxt
+      f6 a
+      sxt
+      c6 a
+      sxt
+      bb7l ha,  rhythm*0.1875
+      sxt
+      f6 a
+      sxt
+      c6 a
+      sxt
+      a6l ha, rhythm*0.25
+      sxt
+      c6 a
+      sxt
+      c6 a
+      sxt
+      c6 a
+      sxt
+      f6l ha, rhythm*0.375
+      sxt
+      c6 a
+      sxt
+      c6 a
+      sxt
+      c6 a
+      sxt
+      f6 a
+      sxt
+      a6 a
+      sxt
+      print "end righthand before 92"
+      d7l ha,  rhythm*0.1875
+      sxt
+      g6 ma
+      sxt
+      d6 ma
+      sxt
+      c7l ha,  rhythm*0.1875
+      sxt
+      g6 ma
+      sxt
+      d6 ma
+      sxt
+      c7 ha
+      sxt
+      d6 ma
+      sxt
+      c7l ha,  rhythm*0.1875
+      sxt
+      g6 ma
+      sxt
+      d6 ma
+      sxt
+      bb6l ha,  rhythm*0.1875
+      sxt
+      g6 ma
+      sxt
+      d6 ma
+      sxt
+      bb6 ha
+      sxt
+      d6 ma
+      sxt
+      print "end righthand before 93"
+      a6l ha,  rhythm*0.1875
+      sxt
+      f6 ma
+      sxt
+      d6 ma
+      sxt
+      bb6l ha,  rhythm*0.1875
+      sxt
+      f6 ma
+      sxt
+      d6 ma
+      sxt
+      g7l ha,rhythm*0.25
+      sxt
+      3.times do
+        d6 ma
+        sxt
+      end
+      a6l ha, rhythm*0.375
+      sxt
+      3.times do
+        d6 ma
+        sxt
+      end
+      f6 ma
+      sxt
+      bb6 ha
+      sxt
+      print "end righthand before 94"
+      g7l ha, rhythm*0.1875
+      sxt
+      bb6 ma
+      sxt
+      g6 ma
+      sxt
+      f7l ha, rhythm*0.1875
+      sxt
+      bb6 ma
+      sxt
+      g6 ma
+      sxt
+      d7l ha, rhythm*0.25
+      sxt
+      3.times do
+        eb6 ma
+        sxt
+      end
+      bb6 ha
+      sxt
+      3.times do
+        eb6 ma
+        sxt
+      end
+      bb6 ma
+      sxt
+      eb6 ma
+      sxt
+      print "end righthand before 95"
+      bb6l ha, rhythm*0.25
+      sxt
+      f6 ma
+      sxt
+      c6 ma
+      sxt
+      c6 ma
+      sxt
+      a6 ha
+      sxt
+      c6 ma
+      sxt
+      g6l ha, rhythm*0.25
+      sxt
+      3.times do
+        c6 ma
+        sxt
+      end
+      a6l ha,rhythm*0.25
+      sxt
+      3.times do
+        c6 ma
+        sxt
+      end
+      bb5l a, rhythm*0.875
+      d6l a, rhythm*0.875
+      bb6l a, rhythm*0.875
+      eight
+      print "end righthand before 96"
+      twon
+      eight
+      bb5 a
+      eight
+      print "end righthand before 97"
+      d5 a
+      f5 a
+      a5 a
+      eightn
+      bb5 a
+      eightn
+      a5l ha, rhythm*0.25
+      four
+      f5 a
+      four
+      d5 a
+      eight
+      print "end righthand before 98"
+      eb5 a
+      g5 a
+      d6 a
+      eight
+      c6 a
+      sxt
+      eb5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      c6 a
+      eight
+      g5 a
+      eb5 a
+      c6 a
+      eight
+      bb5 a
+      sxt
+      eb5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      bb5 a
+      eight
+      print "end righthand before 99"
+      c5 a
+      f5 a
+      a5 a
+      eightn
+      bb5 a
+      eightn
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      a5l a, rhythm*0.25
+      four
+      f5 a
+      four
+      d5 a
+      eight
+      print "end righthand before 100"
+      f5 a
+      bb5 a
+      d6 a
+      eight
+      c6 a
+      sxt
+      f5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      c6 a
+      eight
+      f5 a
+      bb5 a
+      c6 a
+      eight
+      bb5 a
+      sxt
+      f5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      bb5 a
+      eight
+      print "end righthand before 101"
+      d5 a
+      f5 a
+      a5 a
+      eightn
+      bb5 a
+      eightn
+      a5l a, rhythm*0.25
+      f6l a, rhythm*0.25
+      d6l a, rhythm*0.25
+      four
+      a5 a
+      four
+      bb5 a
+      eight
+      print "end righthand before 102"
+      bb5 a
+      eb6 a
+      g6 a
+      eightn
+      f6 a
+      eightn
+      bb5l a, rhythm*0.25
+      d6l a, rhythm*0.25
+      four
+      g5 a
+      bb5 a
+      four
+      bb5 a
+      eight
+      print "end righthand before 103"
+      c5 a
+      f5 a
+      bb5 a
+      four
+      a5 a
+      eight
+      g5l a, rhythm*0.25
+      four
+      a5 a
+      four
+      bb4l a, rhythm*1.125
+      d5l a, rhythm*1.125
+      g5l a, rhythm*1.125
+      bb5l a, rhythm*1.125
+      eight
+      print "end righthand before 104"
+      sxt
+      d4 a
+      sxt
+      g4 a
+      sxt
+      bb4 a
+      sxt
+      d4 a
+      sxt
+      g4 a
+      sxt
+      bb4 a
+      sxt
+      d4 a
+      sxt
+      d5 a
+      sxt
+      d4 a
+      sxt
+      g4 a
+      sxt
+      bb4 a
+      sxt
+      d4 a
+      sxt
+      g4 a
+      sxt
+      bb4 a
+      sxt
+      d4 a
+      sxt
+      print "end righthand before 105"
+      c5 a
+      sxt
+      c4 a
+      sxt
+      f4 a
+      sxt
+      bb4 a
+      sxt
+      c4 a
+      sxt
+      f4 a
+      sxt
+      bb4 a
+      sxt
+      c4 a
+      sxt
+      c5 a
+      sxt
+      c4 a
+      sxt
+      f4 a
+      sxt
+      bb4 a
+      sxt
+      c4 a
+      sxt
+      f4 a
+      sxt
+      bb4 a
+      bb5 a
+      eight
+      print "end righthand before 106"
+      c6l a, rhythm*0.1875
+      sxt
+      f5 a
+      sxt
+      d5 a
+      sxt
+      bb5l a, rhythm*0.1875
+      sxt
+      f5 a
+      sxt
+      d5 a
+      sxt
+      c6l a, rhythm*0.25
+      sxt
+      f5 a
+      sxt
+      d5 a
+      sxt
+      f5 a
+      sxt
+      bb5l a, rhythm*0.25
+      sxt
+      f5 a
+      sxt
+      d5 a
+      sxt
+      f5 a
+      sxt
+      c6l a, rhythm*0.25
+      sxt
+      f5 a
+      sxt
+      print "end righthand before 107"
+      d5 a
+      sxt
+      f5 a
+      sxt
+      d6l a, rhythm*0.75
+      sxt
+      5.times do
+        f5 a
+        sxt
+        d5 a
+        sxt
+      end
+      f5 a
+      sxt
+      bb5 a
+      eight
+      print "end righthand before 108"
+      3.times do
+        bb5l a, rhythm*0.1875
+        d6l a, rhythm*0.1875
+        g6l a, rhythm*0.1875
+        sxt
+        g5 a
+        sxt
+        g5 a
+        sxt
+        bb5l a, rhythm*0.1875
+        d6l a, rhythm*0.1875
+        f6l a, rhythm*0.1875
+        sxt
+        f5 a
+        sxt
+        f5 a
+        sxt
+        f5l a, rhythm*0.25
+        bb5l a, rhythm*0.25
+        d6l a, rhythm*0.25
+        sxt
+        d5 a
+        sxt
+        d5 a
+        sxt
+        d5 a
+        sxt
+        d5l a, rhythm*0.25
+        f5l a, rhythm*0.25
+        bb5l a, rhythm*0.25
+        sxt
+        bb4 a
+        sxt
+        bb4 a
+        sxt
+        bb4 a
+        sxt
+        d5 a
+        f5 a
+        bb5 a
+        eight
+        print "end righthand before 109,110"
+      end
+      print "end righthand before 111"
+      bb5l a, rhythm*0.1875
+      d6l a, rhythm*0.1875
+      g6l a, rhythm*0.1875
+      sxt
+      g5 a
+      sxt
+      g5 a
+      sxt
+      bb5l a, rhythm*0.1875
+      d6l a, rhythm*0.1875
+      f6l a, rhythm*0.1875
+      sxt
+      f5 a
+      sxt
+      f5 a
+      sxt
+      f5l a, rhythm*0.25
+      bb5l a, rhythm*0.25
+      d6l a, rhythm*0.25
+      sxt
+      d5 a
+      sxt
+      d5 a
+      sxt
+      d5 a
+      sxt
+      d5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      bb5l a, rhythm*0.25
+      four
+      d4 a
+      d5 a
+      eight
+      print "end righthand before 112"
+      d5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      d6l a, rhythm*0.1875
+      eightn
+      c5l a, rhythm*0.1875
+      eb5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      c5 a
+      eb5 a
+      g5 a
+      c6 a
+      eight
+      c5l a, rhythm*0.1875
+      eb5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      bb4l a, rhythm*0.1875
+      eb5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      bb4 a
+      eb5 a
+      g5 a
+      bb5 a
+      eight
+      print "end righthand before 113"
+      a4l a, rhythm*0.1875
+      c5l a, rhythm*0.1875
+      f5l a, rhythm*0.1875
+      a5l a, rhythm*0.1875
+      eightn
+      bb4l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      a4l a, rhythm*0.25
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      a5l a, rhythm*0.25
+      four
+      a4l a, rhythm*0.25
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      four
+      d5 a
+      eight
+      print "end righthand before 114"
+      d5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      d6l a, rhythm*0.1875
+      eightn
+      c5l a, rhythm*0.1875
+      f5l a, rhythm*0.1875
+      a5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      c5 a
+      f5 a
+      a5 a
+      c6 a
+      eight
+      c5l a, rhythm*0.1875
+      f5l a, rhythm*0.1875
+      a5l a, rhythm*0.1875
+      c6l a, rhythm*0.1875
+      eightn
+      bb4l a, rhythm*0.1875
+      d5l a, rhythm*0.1875
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      bb4 a
+      d5 a
+      g5 a
+      bb5 a
+      eight
+      print "end righthand before 115"
+      a4l a, rhythm*0.1875
+      d5l a, rhythm*0.1875
+      f5l a, rhythm*0.1875
+      a5l a, rhythm*0.1875
+      eightn
+      bb4l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eightn
+      f5l a, rhythm*0.25
+      a5l a, rhythm*0.25
+      d6l a, rhythm*0.25
+      f6l a, rhythm*0.25
+      four
+      a4l a, rhythm*0.25
+      d5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      d5l a, rhythm*0.25
+      four
+      bb4 a
+      bb5 a
+      eight
+      print "end righthand before 116"
+      g5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      eb6l a, rhythm*0.1875
+      g6l a, rhythm*0.1875
+      eightn
+      f5l a, rhythm*0.1875
+      bb5l a, rhythm*0.1875
+      d6l a, rhythm*0.1875
+      f6l a, rhythm*0.1875
+      eightn
+      d5 a
+      d6 a
+      eight
+      bb4l a, rhythm*0.375
+      d5l a, rhythm*0.375
+      f5l a, rhythm*0.375
+      bb5l a, rhythm*0.375
+      fourn
+      bb4 a
+      bb5 a
+      eight
+      print "end righthand before 117"
+      bb4l a, rhythm*0.25
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      bb5l a, rhythm*0.25
+      four
+      a4 a
+      a5 a
+      eight
+      g4l a, rhythm*0.25
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      g5l a, rhythm*0.25
+      four
+      a4 a
+      a5 a
+      four
+      bb4l a, rhythm*1.125
+      d5l a, rhythm*1.125
+      g5l a, rhythm*1.125
+      bb5l a, rhythm*1.125
+      eight
+      print "end righthand before 118"
+      eight
+      2.times do
+        g4 a
+        eight
+        bb4 a
+        eight
+        d5 a
+        eight
+      end
+      g4 a
+      eight
+      print "end righthand before 119"
+      2.times do
+        c5 a
+        eight
+        g4 a
+        eight
+        bb4 a
+        eight
+      end
+      c5 a
+      eight
+      g4 a
+      eight
+      print "end righthand before 120"
+      2.times do
+        c5 a
+        eight
+        f4 a
+        eight
+        a4 a
+        eight
+      end
+      bb4 a
+      eight
+      f4 a
+      eight
+      print "end righthand before 121"
+      c5 a
+      eight
+      g4 a
+      eight
+      a4 a
+      eight
+      c5 a
+      eight
+      g4 a
+      eight
+      bb4 a
+      eight
+      d5 a
+      eight
+      bb5 a
+      eight
+      print "end righthand before 122"
+      d5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      c6l a, rhythm*0.25
+      four
+      bb5l a, rhythm*0.25
+      four
+      a5l a, rhythm*0.50
+      eight
+      g4 a
+      eight
+      bb4 a
+      eight
+      d5 a
+      eight
+      print "end righthand before 123"
+      2.times do
+        f4 a
+        eight
+        c5 a
+        eight
+        d5 a
+        eight
+      end
+      f4 a
+      eight
+      bb5 a
+      eight
+      print "end righthand before 124"
+      c5l a, rhythm*0.25
+      f5l a, rhythm*0.25
+      c6l a, rhythm*0.25
+      four
+      bb5l a, rhythm*0.25
+      four
+      a5l a, rhythm*0.50
+      eight
+      a4 a
+      eight
+      bb4 a
+      eight
+      c5 a
+      eight
+      print "end righthand before 125"
+      2.times do
+        f4 a
+        eight
+        a4 a
+        eight
+        bb4 a
+        eight
+      end
+      f4 a
+      eight
+      d5 a
+      eight
+      print "end righthand before 126"
+      bb4l a, rhythm*0.5
+      d5l a, rhythm*0.5
+      four
+      d5 a
+      eight
+      d5l a, rhythm*0.5
+      four
+      d6 a
+      eight
+      d6l a, rhythm*0.75
+      four
+      print "end righthand before 127"
+      2.times do
+        f4 a
+        eight
+        c5 a
+        eight
+        d5 a
+        eight
+      end
+      f4 a
+      eight
+      bb5 a
+      eight
+      print "end righthand before 128"
+      a5l a, rhythm*0.5
+      four
+      a5 a
+      eight
+      a5l a, rhythm*0.5
+      four
+      bb5 a
+      eight
+      bb5l a, rhythm*0.5
+      four
+      print "end righthand before 129"
+      d7l a, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      d6 a
+      sxt
+      c7l a, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      d6 a
+      sxt
+      bb6l a, rhythm*0.625
+      eight
+      two
+      print "end righthand before 130"
+      d7l a, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      d6 a
+      sxt
+      c7l a, rhythm*0.1875
+      sxt
+      g6 a
+      sxt
+      d6 a
+      sxt
+      bb6l a, rhythm*0.625
+      eight
+      two
+      print "end righthand before 131"
+      print "end righthand before 132"
+      print "end righthand before 133"
+
+    end
+  end
+end
