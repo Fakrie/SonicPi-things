@@ -1,0 +1,446 @@
+#___Note_Shortcuts______________________________
+define :c1l do |ampl , long|
+  play :C1, sustain: long*2/3, amp: ampl
+end
+define :d1l do |ampl , long|
+  play :D1, sustain: long*2/3, amp: ampl
+end
+define :e1l do |ampl , long|
+  play :E1, sustain: long*2/3, amp: ampl
+end
+define :f1l do |ampl , long|
+  play :F1, sustain: long*2/3, amp: ampl
+end
+define :g1l do |ampl , long|
+  play :G1, sustain: long*2/3, amp: ampl
+end
+define :a1l do |ampl , long|
+  play :A1, sustain: long*2/3, amp: ampl
+end
+define :b1l do |ampl , long|
+  play :B1, sustain: long*2/3, amp: ampl
+end
+define :c2l do |ampl , long|
+  play :C2, sustain: long*2/3, amp: ampl
+end
+define :d2l do |ampl , long|
+  play :D2, sustain: long*2/3, amp: ampl
+end
+define :e2l do |ampl , long|
+  play :E2, sustain: long*2/3, amp: ampl
+end
+define :f2l do |ampl , long|
+  play :F2, sustain: long*2/3, amp: ampl
+end
+define :g2l do |ampl , long|
+  play :G2, sustain: long*2/3, amp: ampl
+end
+define :a2l do |ampl , long|
+  play :A2, sustain: long*2/3, amp: ampl
+end
+define :b2l do |ampl , long|
+  play :B2, sustain: long*2/3, amp: ampl
+end
+define :c3l do |ampl , long|
+  play :C3, sustain: long*2/3, amp: ampl
+end
+define :d3l do |ampl , long|
+  play :D3, sustain: long*2/3, amp: ampl
+end
+define :e3l do |ampl , long|
+  play :E3, sustain: long*2/3, amp: ampl
+end
+define :f3l do |ampl , long|
+  play :F3, sustain: long*2/3, amp: ampl
+end
+define :g3l do |ampl , long|
+  play :G3, sustain: long*2/3, amp: ampl
+end
+define :a3l do |ampl , long|
+  play :A3, sustain: long*2/3, amp: ampl
+end
+define :b3l do |ampl , long|
+  play :B3, sustain: long*2/3, amp: ampl
+end
+define :c4l do |ampl , long|
+  play :C4, sustain: long*2/3, amp: ampl
+end
+define :d4l do |ampl , long|
+  play :D4, sustain: long*2/3, amp: ampl
+end
+define :e4l do |ampl , long|
+  play :E4, sustain: long*2/3, amp: ampl
+end
+define :f4l do |ampl , long|
+  play :F4, sustain: long*2/3, amp: ampl
+end
+define :g4l do |ampl , long|
+  play :G4, sustain: long*2/3, amp: ampl
+end
+define :a4l do |ampl , long|
+  play :A4, sustain: long*2/3, amp: ampl
+end
+define :b4l do |ampl , long|
+  play :B4, sustain: long*2/3, amp: ampl
+end
+define :c5l do |ampl , long|
+  play :C5, sustain: long*2/3, amp: ampl
+end
+define :d5l do |ampl , long|
+  play :D5, sustain: long*2/3, amp: ampl
+end
+define :e5l do |ampl , long|
+  play :E5, sustain: long*2/3, amp: ampl
+end
+define :f5l do |ampl , long|
+  play :F5, sustain: long*2/3, amp: ampl
+end
+define :g5l do |ampl , long|
+  play :G5, sustain: long*2/3, amp: ampl
+end
+define :a5l do |ampl , long|
+  play :A5, sustain: long*2/3, amp: ampl
+end
+define :b5l do |ampl , long|
+  play :B5, sustain: long*2/3, amp: ampl
+end
+define :c6l do |ampl , long|
+  play :C6, sustain: long*2/3, amp: ampl
+end
+define :d6l do |ampl , long|
+  play :D6, sustain: long*2/3, amp: ampl
+end
+define :e6l do |ampl , long|
+  play :E6, sustain: long*2/3, amp: ampl
+end
+define :f6l do |ampl , long|
+  play :F6, sustain: long*2/3, amp: ampl
+end
+define :g6l do |ampl , long|
+  play :G6, sustain: long*2/3, amp: ampl
+end
+define :a6l do |ampl , long|
+  play :A6, sustain: long*2/3, amp: ampl
+end
+define :b6l do |ampl , long|
+  play :B6, sustain: long*2/3, amp: ampl
+end
+define :c7l do |ampl , long|
+  play :C7, sustain: long*2/3, amp: ampl
+end
+define :d7l do |ampl , long|
+  play :D7, sustain: long*2/3, amp: ampl
+end
+define :e7l do |ampl , long|
+  play :E7, sustain: long*2/3, amp: ampl
+end
+define :f7l do |ampl , long|
+  play :F7, sustain: long*2/3, amp: ampl
+end
+define :g7l do |ampl , long|
+  play :G7, sustain: long*2/3, amp: ampl
+end
+define :a7l do |ampl , long|
+  play :A7, sustain: long*2/3, amp: ampl
+end
+define :b7l do |ampl , long|
+  play :B7, sustain: long*2/3, amp: ampl
+end
+
+#___Note_Shortcuts-Sharps___________________
+define :cs1l do |ampl , long|
+  play :Cs1, sustain: long*2/3, amp: ampl
+end
+define :ds1l do |ampl , long|
+  play :Ds1, sustain: long*2/3, amp: ampl
+end
+define :es1l do |ampl , long|
+  play :Es1, sustain: long*2/3, amp: ampl
+end
+define :fs1l do |ampl , long|
+  play :Fs1, sustain: long*2/3, amp: ampl
+end
+define :gs1l do |ampl , long|
+  play :Gs1, sustain: long*2/3, amp: ampl
+end
+define :as1l do |ampl , long|
+  play :As1, sustain: long*2/3, amp: ampl
+end
+define :bs1l do |ampl , long|
+  play :Bs1, sustain: long*2/3, amp: ampl
+end
+define :cs2l do |ampl , long|
+  play :Cs2, sustain: long*2/3, amp: ampl
+end
+define :ds2l do |ampl , long|
+  play :Ds2, sustain: long*2/3, amp: ampl
+end
+define :es2l do |ampl , long|
+  play :Es2, sustain: long*2/3, amp: ampl
+end
+define :fs2l do |ampl , long|
+  play :Fs2, sustain: long*2/3, amp: ampl
+end
+define :gs2l do |ampl , long|
+  play :Gs2, sustain: long*2/3, amp: ampl
+end
+define :as2l do |ampl , long|
+  play :A2, sustain: long*2/3, amp: ampl
+end
+define :bs2l do |ampl , long|
+  play :Bs2, sustain: long*2/3, amp: ampl
+end
+define :cs3l do |ampl , long|
+  play :Cs3, sustain: long*2/3, amp: ampl
+end
+define :ds3l do |ampl , long|
+  play :Ds3, sustain: long*2/3, amp: ampl
+end
+define :es3l do |ampl , long|
+  play :Es3, sustain: long*2/3, amp: ampl
+end
+define :fs3l do |ampl , long|
+  play :Fs3, sustain: long*2/3, amp: ampl
+end
+define :gs3l do |ampl , long|
+  play :Gs3, sustain: long*2/3, amp: ampl
+end
+define :as3l do |ampl , long|
+  play :As3, sustain: long*2/3, amp: ampl
+end
+define :bs3l do |ampl , long|
+  play :Bs3, sustain: long*2/3, amp: ampl
+end
+define :cs4l do |ampl , long|
+  play :Cs4, sustain: long*2/3, amp: ampl
+end
+define :ds4l do |ampl , long|
+  play :Ds4, sustain: long*2/3, amp: ampl
+end
+define :es4l do |ampl , long|
+  play :Es4, sustain: long*2/3, amp: ampl
+end
+define :fs4l do |ampl , long|
+  play :Fs4, sustain: long*2/3, amp: ampl
+end
+define :gs4l do |ampl , long|
+  play :Gs4, sustain: long*2/3, amp: ampl
+end
+define :as4l do |ampl , long|
+  play :As4, sustain: long*2/3, amp: ampl
+end
+define :bs4l do |ampl , long|
+  play :Bs4, sustain: long*2/3, amp: ampl
+end
+define :cs5l do |ampl , long|
+  play :Cs5, sustain: long*2/3, amp: ampl
+end
+define :ds5l do |ampl , long|
+  play :Ds5, sustain: long*2/3, amp: ampl
+end
+define :es5l do |ampl , long|
+  play :Es5, sustain: long*2/3, amp: ampl
+end
+define :fs5l do |ampl , long|
+  play :Fs5, sustain: long*2/3, amp: ampl
+end
+define :gs5l do |ampl , long|
+  play :Gs5, sustain: long*2/3, amp: ampl
+end
+define :as5l do |ampl , long|
+  play :As5, sustain: long*2/3, amp: ampl
+end
+define :bs5l do |ampl , long|
+  play :Bs5, sustain: long*2/3, amp: ampl
+end
+define :cs6l do |ampl , long|
+  play :Cs6, sustain: long*2/3, amp: ampl
+end
+define :ds6l do |ampl , long|
+  play :Ds6, sustain: long*2/3, amp: ampl
+end
+define :es6l do |ampl , long|
+  play :Es6, sustain: long*2/3, amp: ampl
+end
+define :fs6l do |ampl , long|
+  play :Fs6, sustain: long*2/3, amp: ampl
+end
+define :gs6l do |ampl , long|
+  play :Gs6, sustain: long*2/3, amp: ampl
+end
+define :as6l do |ampl , long|
+  play :As6, sustain: long*2/3, amp: ampl
+end
+define :bs6l do |ampl , long|
+  play :Bs6, sustain: long*2/3, amp: ampl
+end
+define :cs7l do |ampl , long|
+  play :Cs7, sustain: long*2/3, amp: ampl
+end
+define :ds7l do |ampl , long|
+  play :Ds7, sustain: long*2/3, amp: ampl
+end
+define :es7l do |ampl , long|
+  play :Es7, sustain: long*2/3, amp: ampl
+end
+define :fs7l do |ampl , long|
+  play :Fs7, sustain: long*2/3, amp: ampl
+end
+define :gs7l do |ampl , long|
+  play :Gs7, sustain: long*2/3, amp: ampl
+end
+define :as7l do |ampl , long|
+  play :As7, sustain: long*2/3, amp: ampl
+end
+define :bs7l do |ampl , long|
+  play :Bs7, sustain: long*2/3, amp: ampl
+end
+
+#___Note_Shortcuts-Flats______________________________
+define :cb1l do |ampl , long|
+  play :Cb1, sustain: long*2/3, amp: ampl
+end
+define :db1l do |ampl , long|
+  play :Db1, sustain: long*2/3, amp: ampl
+end
+define :eb1l do |ampl , long|
+  play :Eb1, sustain: long*2/3, amp: ampl
+end
+define :fb1l do |ampl , long|
+  play :Fb1, sustain: long*2/3, amp: ampl
+end
+define :gb1l do |ampl , long|
+  play :Gb1, sustain: long*2/3, amp: ampl
+end
+define :ab1l do |ampl , long|
+  play :Ab1, sustain: long*2/3, amp: ampl
+end
+define :bb1l do |ampl , long|
+  play :Bb1, sustain: long*2/3, amp: ampl
+end
+define :cb2l do |ampl , long|
+  play :Cb2, sustain: long*2/3, amp: ampl
+end
+define :db2l do |ampl , long|
+  play :Db2, sustain: long*2/3, amp: ampl
+end
+define :eb2l do |ampl , long|
+  play :Eb2, sustain: long*2/3, amp: ampl
+end
+define :fb2l do |ampl , long|
+  play :Fb2, sustain: long*2/3, amp: ampl
+end
+define :gb2l do |ampl , long|
+  play :Gb2, sustain: long*2/3, amp: ampl
+end
+define :ab2l do |ampl , long|
+  play :Ab2, sustain: long*2/3, amp: ampl
+end
+define :bb2l do |ampl , long|
+  play :Bb2, sustain: long*2/3, amp: ampl
+end
+define :cb3l do |ampl , long|
+  play :Cb3, sustain: long*2/3, amp: ampl
+end
+define :db3l do |ampl , long|
+  play :Db3, sustain: long*2/3, amp: ampl
+end
+define :eb3l do |ampl , long|
+  play :Eb3, sustain: long*2/3, amp: ampl
+end
+define :fb3l do |ampl , long|
+  play :Fb3, sustain: long*2/3, amp: ampl
+end
+define :gb3l do |ampl , long|
+  play :Gb3, sustain: long*2/3, amp: ampl
+end
+define :ab3l do |ampl , long|
+  play :Ab3, sustain: long*2/3, amp: ampl
+end
+define :bb3l do |ampl , long|
+  play :Bb3, sustain: long*2/3, amp: ampl
+end
+define :cb4l do |ampl , long|
+  play :Cb4, sustain: long*2/3, amp: ampl
+end
+define :db4l do |ampl , long|
+  play :Db4, sustain: long*2/3, amp: ampl
+end
+define :eb4l do |ampl , long|
+  play :Eb4, sustain: long*2/3, amp: ampl
+end
+define :fb4l do |ampl , long|
+  play :Fb4, sustain: long*2/3, amp: ampl
+end
+define :gb4l do |ampl , long|
+  play :Gb4, sustain: long*2/3, amp: ampl
+end
+define :ab4l do |ampl , long|
+  play :Ab4, sustain: long*2/3, amp: ampl
+end
+define :bb4l do |ampl , long|
+  play :Bb4, sustain: long*2/3, amp: ampl
+end
+define :cb5l do |ampl , long|
+  play :Cb5, sustain: long*2/3, amp: ampl
+end
+define :db5l do |ampl , long|
+  play :Db5, sustain: long*2/3, amp: ampl
+end
+define :eb5l do |ampl , long|
+  play :Eb5, sustain: long*2/3, amp: ampl
+end
+define :fb5l do |ampl , long|
+  play :Fb5, sustain: long*2/3, amp: ampl
+end
+define :gb5l do |ampl , long|
+  play :Gb5, sustain: long*2/3, amp: ampl
+end
+define :ab5l do |ampl , long|
+  play :Ab5, sustain: long*2/3, amp: ampl
+end
+define :bb5l do |ampl , long|
+  play :Bb5, sustain: long*2/3, amp: ampl
+end
+define :cb6l do |ampl , long|
+  play :Cb6, sustain: long*2/3, amp: ampl
+end
+define :db6l do |ampl , long|
+  play :Db6, sustain: long*2/3, amp: ampl
+end
+define :eb6l do |ampl , long|
+  play :Eb6, sustain: long*2/3, amp: ampl
+end
+define :fb6l do |ampl , long|
+  play :Fb6, sustain: long*2/3, amp: ampl
+end
+define :gb6l do |ampl , long|
+  play :Gb6, sustain: long*2/3, amp: ampl
+end
+define :ab6l do |ampl , long|
+  play :Ab6, sustain: long*2/3, amp: ampl
+end
+define :bb6l do |ampl , long|
+  play :Bb6, sustain: long*2/3, amp: ampl
+end
+define :cb7l do |ampl , long|
+  play :Cb7, sustain: long*2/3, amp: ampl
+end
+define :db7l do |ampl , long|
+  play :Db7, sustain: long*2/3, amp: ampl
+end
+define :eb7l do |ampl , long|
+  play :Eb7, sustain: long*2/3, amp: ampl
+end
+define :fb7l do |ampl , long|
+  play :Fb7, sustain: long*2/3, amp: ampl
+end
+define :gb7l do |ampl , long|
+  play :Gb7, sustain: long*2/3, amp: ampl
+end
+define :ab7l do |ampl , long|
+  play :Ab7, sustain: long*2/3, amp: ampl
+end
+define :bb7l do |ampl , long|
+  play :Bb7, sustain: long*2/3, amp: ampl
+end

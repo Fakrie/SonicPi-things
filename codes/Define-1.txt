@@ -1,0 +1,494 @@
+#_Variables__________________________________________
+rhythm = 1.80
+amplitude = 0.5
+High_amplitude= 1.5
+Higher_amplitude= 2
+
+#_Rhythm_____________________________
+define :one do
+  sleep rhythm
+end
+define :two do
+  sleep rhythm*0.5
+end
+define :twon do
+  sleep rhythm*0.5*1.5
+end
+define :four do
+  sleep rhythm*0.25
+end
+define :fourn do
+  sleep rhythm*0.25*1.5
+end
+define :eight do
+  sleep rhythm*0.125
+end
+define :eightn do
+  sleep rhythm*0.125*1.5
+end
+define :sxt do
+  sleep rhythm*0.0625
+end
+define :sxtn do
+  sleep rhythm*0.0625*1.5
+end
+define :thrt do
+  sleep rhythm*0.03125
+end
+
+define :tremolo do |note1a,note1b,note2|
+  8.times do
+    play note1a
+    play note1b
+    sleep rhythm*0.03125
+    play note2
+    sleep rhythm*0.03125
+  end
+end
+
+#___Note_Shortcuts______________________________
+define :c1 do |ampl|
+  play :C1, amp: ampl
+end
+define :d1 do |ampl|
+  play :D1, amp: ampl
+end
+define :e1 do |ampl|
+  play :E1, amp: ampl
+end
+define :f1 do |ampl|
+  play :F1, amp: ampl
+end
+define :g1 do |ampl|
+  play :G1, amp: ampl
+end
+define :a1 do |ampl|
+  play :A1, amp: ampl
+end
+define :b1 do |ampl|
+  play :B1, amp: ampl
+end
+define :c2 do |ampl|
+  play :C2, amp: ampl
+end
+define :d2 do |ampl|
+  play :D2, amp: ampl
+end
+define :e2 do |ampl|
+  play :E2, amp: ampl
+end
+define :f2 do |ampl|
+  play :F2, amp: ampl
+end
+define :g2 do |ampl|
+  play :G2, amp: ampl
+end
+define :a2 do |ampl|
+  play :A2, amp: ampl
+end
+define :b2 do |ampl|
+  play :B2, amp: ampl
+end
+define :c3 do |ampl|
+  play :C3, amp: ampl
+end
+define :d3 do |ampl|
+  play :D3, amp: ampl
+end
+define :e3 do |ampl|
+  play :E3, amp: ampl
+end
+define :f3 do |ampl|
+  play :F3, amp: ampl
+end
+define :g3 do |ampl|
+  play :G3, amp: ampl
+end
+define :a3 do |ampl|
+  play :A3, amp: ampl
+end
+define :b3 do |ampl|
+  play :B3, amp: ampl
+end
+define :c4 do |ampl|
+  play :C4, amp: ampl
+end
+define :d4 do |ampl|
+  play :D4, amp: ampl
+end
+define :e4 do |ampl|
+  play :E4, amp: ampl
+end
+define :f4 do |ampl|
+  play :F4, amp: ampl
+end
+define :g4 do |ampl|
+  play :G4, amp: ampl
+end
+define :a4 do |ampl|
+  play :A4, amp: ampl
+end
+define :b4 do |ampl|
+  play :B4, amp: ampl
+end
+define :c5 do |ampl|
+  play :C5, amp: ampl
+end
+define :d5 do |ampl|
+  play :D5, amp: ampl
+end
+define :e5 do |ampl|
+  play :E5, amp: ampl
+end
+define :f5 do |ampl|
+  play :F5, amp: ampl
+end
+define :g5 do |ampl|
+  play :G5, amp: ampl
+end
+define :a5 do |ampl|
+  play :A5, amp: ampl
+end
+define :b5 do |ampl|
+  play :B5, amp: ampl
+end
+define :c6 do |ampl|
+  play :C6, amp: ampl
+end
+define :d6 do |ampl|
+  play :D6, amp: ampl
+end
+define :e6 do |ampl|
+  play :E6, amp: ampl
+end
+define :f6 do |ampl|
+  play :F6, amp: ampl
+end
+define :g6 do |ampl|
+  play :G6, amp: ampl
+end
+define :a6 do |ampl|
+  play :A6, amp: ampl
+end
+define :b6 do |ampl|
+  play :B6, amp: ampl
+end
+define :c7 do |ampl|
+  play :C7, amp: ampl
+end
+define :d7 do |ampl|
+  play :D7, amp: ampl
+end
+define :e7 do |ampl|
+  play :E7, amp: ampl
+end
+define :f7 do |ampl|
+  play :F7, amp: ampl
+end
+define :g7 do |ampl|
+  play :G7, amp: ampl
+end
+define :a7 do |ampl|
+  play :A7, amp: ampl
+end
+define :b7 do |ampl|
+  play :B7, amp: ampl
+end
+
+#___Note_Shortcuts-Sharps___________________
+define :cs1 do |ampl|
+  play :Cs1, amp: ampl
+end
+define :ds1 do |ampl|
+  play :Ds1, amp: ampl
+end
+define :es1 do |ampl|
+  play :Es1, amp: ampl
+end
+define :fs1 do |ampl|
+  play :Fs1, amp: ampl
+end
+define :gs1 do |ampl|
+  play :Gs1, amp: ampl
+end
+define :as1 do |ampl|
+  play :As1, amp: ampl
+end
+define :bs1 do |ampl|
+  play :Bs1, amp: ampl
+end
+define :cs2 do |ampl|
+  play :Cs2, amp: ampl
+end
+define :ds2 do |ampl|
+  play :Ds2, amp: ampl
+end
+define :es2 do |ampl|
+  play :Es2, amp: ampl
+end
+define :fs2 do |ampl|
+  play :Fs2, amp: ampl
+end
+define :gs2 do |ampl|
+  play :Gs2, amp: ampl
+end
+define :as2 do |ampl|
+  play :A2, amp: ampl
+end
+define :bs2 do |ampl|
+  play :Bs2, amp: ampl
+end
+define :cs3 do |ampl|
+  play :Cs3, amp: ampl
+end
+define :ds3 do |ampl|
+  play :Ds3, amp: ampl
+end
+define :es3 do |ampl|
+  play :Es3, amp: ampl
+end
+define :fs3 do |ampl|
+  play :Fs3, amp: ampl
+end
+define :gs3 do |ampl|
+  play :Gs3, amp: ampl
+end
+define :as3 do |ampl|
+  play :As3, amp: ampl
+end
+define :bs3 do |ampl|
+  play :Bs3, amp: ampl
+end
+define :cs4 do |ampl|
+  play :Cs4, amp: ampl
+end
+define :ds4 do |ampl|
+  play :Ds4, amp: ampl
+end
+define :es4 do |ampl|
+  play :Es4, amp: ampl
+end
+define :fs4 do |ampl|
+  play :Fs4, amp: ampl
+end
+define :gs4 do |ampl|
+  play :Gs4, amp: ampl
+end
+define :as4 do |ampl|
+  play :As4, amp: ampl
+end
+define :bs4 do |ampl|
+  play :Bs4, amp: ampl
+end
+define :cs5 do |ampl|
+  play :Cs5, amp: ampl
+end
+define :ds5 do |ampl|
+  play :Ds5, amp: ampl
+end
+define :es5 do |ampl|
+  play :Es5, amp: ampl
+end
+define :fs5 do |ampl|
+  play :Fs5, amp: ampl
+end
+define :gs5 do |ampl|
+  play :Gs5, amp: ampl
+end
+define :as5 do |ampl|
+  play :As5, amp: ampl
+end
+define :bs5 do |ampl|
+  play :Bs5, amp: ampl
+end
+define :cs6 do |ampl|
+  play :Cs6, amp: ampl
+end
+define :ds6 do |ampl|
+  play :Ds6, amp: ampl
+end
+define :es6 do |ampl|
+  play :Es6, amp: ampl
+end
+define :fs6 do |ampl|
+  play :Fs6, amp: ampl
+end
+define :gs6 do |ampl|
+  play :Gs6, amp: ampl
+end
+define :as6 do |ampl|
+  play :As6, amp: ampl
+end
+define :bs6 do |ampl|
+  play :Bs6, amp: ampl
+end
+define :cs7 do |ampl|
+  play :Cs7, amp: ampl
+end
+define :ds7 do |ampl|
+  play :Ds7, amp: ampl
+end
+define :es7 do |ampl|
+  play :Es7, amp: ampl
+end
+define :fs7 do |ampl|
+  play :Fs7, amp: ampl
+end
+define :gs7 do |ampl|
+  play :Gs7, amp: ampl
+end
+define :as7 do |ampl|
+  play :As7, amp: ampl
+end
+define :bs7 do |ampl|
+  play :Bs7, amp: ampl
+end
+
+#___Note_Shortcuts-Flats______________________________
+define :cb1 do |ampl|
+  play :Cb1, amp: ampl
+end
+define :db1 do |ampl|
+  play :Db1, amp: ampl
+end
+define :eb1 do |ampl|
+  play :Eb1, amp: ampl
+end
+define :fb1 do |ampl|
+  play :Fb1, amp: ampl
+end
+define :gb1 do |ampl|
+  play :Gb1, amp: ampl
+end
+define :ab1 do |ampl|
+  play :Ab1, amp: ampl
+end
+define :bb1 do |ampl|
+  play :Bb1, amp: ampl
+end
+define :cb2 do |ampl|
+  play :Cb2, amp: ampl
+end
+define :db2 do |ampl|
+  play :Db2, amp: ampl
+end
+define :eb2 do |ampl|
+  play :Eb2, amp: ampl
+end
+define :fb2 do |ampl|
+  play :Fb2, amp: ampl
+end
+define :gb2 do |ampl|
+  play :Gb2, amp: ampl
+end
+define :ab2 do |ampl|
+  play :Ab2, amp: ampl
+end
+define :bb2 do |ampl|
+  play :Bb2, amp: ampl
+end
+define :cb3 do |ampl|
+  play :Cb3, amp: ampl
+end
+define :db3 do |ampl|
+  play :Db3, amp: ampl
+end
+define :eb3 do |ampl|
+  play :Eb3, amp: ampl
+end
+define :fb3 do |ampl|
+  play :Fb3, amp: ampl
+end
+define :gb3 do |ampl|
+  play :Gb3, amp: ampl
+end
+define :ab3 do |ampl|
+  play :Ab3, amp: ampl
+end
+define :bb3 do |ampl|
+  play :Bb3, amp: ampl
+end
+define :cb4 do |ampl|
+  play :Cb4, amp: ampl
+end
+define :db4 do |ampl|
+  play :Db4, amp: ampl
+end
+define :eb4 do |ampl|
+  play :Eb4, amp: ampl
+end
+define :fb4 do |ampl|
+  play :Fb4, amp: ampl
+end
+define :gb4 do |ampl|
+  play :Gb4, amp: ampl
+end
+define :ab4 do |ampl|
+  play :Ab4, amp: ampl
+end
+define :bb4 do |ampl|
+  play :Bb4, amp: ampl
+end
+define :cb5 do |ampl|
+  play :Cb5, amp: ampl
+end
+define :db5 do |ampl|
+  play :Db5, amp: ampl
+end
+define :eb5 do |ampl|
+  play :Eb5, amp: ampl
+end
+define :fb5 do |ampl|
+  play :Fb5, amp: ampl
+end
+define :gb5 do |ampl|
+  play :Gb5, amp: ampl
+end
+define :ab5 do |ampl|
+  play :Ab5, amp: ampl
+end
+define :bb5 do |ampl|
+  play :Bb5, amp: ampl
+end
+define :cb6 do |ampl|
+  play :Cb6, amp: ampl
+end
+define :db6 do |ampl|
+  play :Db6, amp: ampl
+end
+define :eb6 do |ampl|
+  play :Eb6, amp: ampl
+end
+define :fb6 do |ampl|
+  play :Fb6, amp: ampl
+end
+define :gb6 do |ampl|
+  play :Gb6, amp: ampl
+end
+define :ab6 do |ampl|
+  play :Ab6, amp: ampl
+end
+define :bb6 do |ampl|
+  play :Bb6, amp: ampl
+end
+define :cb7 do |ampl|
+  play :Cb7, amp: ampl
+end
+define :db7 do |ampl|
+  play :Db7, amp: ampl
+end
+define :eb7 do |ampl|
+  play :Eb7, amp: ampl
+end
+define :fb7 do |ampl|
+  play :Fb7, amp: ampl
+end
+define :gb7 do |ampl|
+  play :Gb7, amp: ampl
+end
+define :ab7 do |ampl|
+  play :Ab7, amp: ampl
+end
+define :bb7 do |ampl|
+  play :Bb7, amp: ampl
+end
